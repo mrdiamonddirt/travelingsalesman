@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Traveling Salesman Problem Visualization</title>
+<style>
+  canvas {
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+  }
+</style>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<div>
+    <button id="startButton">Start Visualization</button>
+    <label for="numCitiesInput">Number of Cities:</label>
+    <input type="number" id="numCitiesInput" value="5" min="1">
+  </div>
+  <div id="routeCounter"></div>
+  <div id="routeLength"></div>
+  <div id="routesCalculated"></div>
+  <div id="bestRouteLength"></div>
+  <div id="timeTaken"></div>
+<script src="script.js"></script>
+</body>
+</html>
