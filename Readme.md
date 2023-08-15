@@ -19,10 +19,20 @@ Shows a visualization of the traveling salesman problem. The cities are randomly
 
 shows the number of possible routes, the number of routes checked, and the time it took to find the best path.
 
+### Nearest Neighbor
+
+- `index.html` - the main html file
+- `script.js` - the main javascript file
+
+Shows a visualization of the traveling salesman problem. The cities are randomly generated and the path script runs until the best path is found using a Nearest Neighbor Algorthm. The best path is then shown in red.
+
+shows the number of possible routes, the number of routes checked, and the time it took to find the best path.
+
 ## TODO
 
 - [ ] add more algorithms in seperate folders
-- [ ] nearest neighbor
-- [ ] genetic algorithm
-- [ ] simulated annealing
-- [ ] ant colony optimization
+- [x] nearest neighbor
+- [ ] improve minimum spanning tree
+- [ ] improve genetic algorithm
+- [ ] add simulated annealing
+- [ ] add ant colony optimization
